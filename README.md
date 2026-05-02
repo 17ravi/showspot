@@ -18,8 +18,9 @@ ShowSpot is a social media platform designed around location-based photo sharing
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn package manager
+- Flutter SDK (v3.0 or higher)
+- Dart SDK (included with Flutter)
+- Android Studio or Xcode (for mobile development)
 
 ### Installation
 
@@ -31,17 +32,17 @@ cd showspot
 
 2. Install dependencies:
 ```bash
-npm install
+flutter pub get
 ```
 
-3. Start the development server:
+3. Run the app:
 ```bash
-npm start
+flutter run
 ```
 
 ## Technology Stack
 
-- **Frontend**: React Native / React (cross-platform support)
+- **Frontend**: Flutter (cross-platform support)
 - **Backend**: Node.js with Express
 - **Database**: [To be determined]
 - **Maps Integration**: [To be determined]
